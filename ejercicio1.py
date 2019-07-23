@@ -12,3 +12,7 @@ print(type(nombre))  # imprime el tipo de dato que es la variable
 nombre = 5
 print(nombre)
 print(type(nombre))
+
+#Al tener que crear una variable que contenga  más de una palabra, estas
+# se deben de separar con un guión bajo como se muestra a continuación#
+nombre_alumno = "Osiris Mendoza"
