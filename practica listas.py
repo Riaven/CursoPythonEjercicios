@@ -55,5 +55,6 @@ miLista.remove(5)
 miSegundaLista = ["Iron Man", "Skrillex"]
 sumaDelistas = miLista + miSegundaLista
 print(sumaDelistas[:])
-
-
+#devuelve el tipo de dato que tiene el elemento
+print(type(sumaDelistas[3]))
+print(type(sumaDelistas[6]))
