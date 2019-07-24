@@ -2,6 +2,8 @@
 # y posteriormente hacer un llamado a la lista completa, como
 # a un solo dato por su índice#
 
+#Una lista puede almacenar datos de diferentes tipos 
+# sin ningún problema#
 miLista = ["Osiris", "Sylvia", 3.65, "Adriadna"]
 
 #se agrega un nuevo elemento a lista al final#
@@ -10,6 +12,8 @@ miLista.append("Maritza")
 miLista.insert(0, False)
 #agrega los elementos en la lista#
 miLista.extend([5, "Fredy"])
+
+
 
 #Se ponen dos puntos dentro de los corchetes para poder
 # obtener todos los datos que contiene la lista llamada#
@@ -51,3 +55,5 @@ miLista.remove(5)
 miSegundaLista = ["Iron Man", "Skrillex"]
 sumaDelistas = miLista + miSegundaLista
 print(sumaDelistas[:])
+
+
