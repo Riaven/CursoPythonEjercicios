@@ -4,4 +4,5 @@
 for letra in "Python":
     if letra == "h":
         continue
+        #Salta lo que viene en el código cuando la letra es una h
     print("Viendo la letra " + letra)
