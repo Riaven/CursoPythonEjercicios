@@ -8,7 +8,11 @@ class Auto():
     def revisionEstado(self, estadoAuto):
         self.__estado = estadoAuto
         if self.__estado:
+            chequeo = self.chequeo_interno()
+        if self.__estado and chequeo:
             return "El auto se encuentra en buen estado"
+        elif(self.__estado and chequeo == False):
+            return "Problemas con el chequeo"
         else:
             return "El aunto NO se encuentra en buen estado"
     # Devuelve todos los atributos del auto
@@ -17,8 +21,17 @@ class Auto():
         print("Ruedas :", self.__ruedas)
         print("Estado del auto : " , self.__estado)
 
+    def chequeo_interno(self):
+        print("Chequeo interno")
+        self.gasolina = "ok"
+        self.aceite = "mal"
+        self.puertas = "Cerradas"
+        if(self.gasolina == "ok" and self.aceite == "ok" and self.puertas == "Cerradas"):
+            return True
+        else:
+            return False
+
 autito =  Auto()
 autito.entregaInfo()
-print(autito.revisionEstado(False))
+print(autito.revisionEstado(True))
 autito.entregaInfo()
-print(autito)
