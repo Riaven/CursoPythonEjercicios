@@ -7,7 +7,7 @@ print(type(nombre))  # imprime el tipo de dato que es la variable
 #En este caso la variable nombre, su tipo es definido por
 # el contenido que a esta se le da, en el caso anterior se
 # le entrego un contenido de tipo string, y ahora uno int
-# y en la función type() se puede observar que cambio de ser 
+# y en la función type(), se puede observar que cambio de ser 
 # str a int#
 nombre = 5
 print(nombre)
