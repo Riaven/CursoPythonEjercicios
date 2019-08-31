@@ -1,4 +1,4 @@
-from modulo_vehiculo import *
+from .modulo_vehiculo import *
 
 auto = Vehiculo("Hyundai", "Tucson")
 auto.estado()

@@ -1,0 +1,2 @@
+Frase para escribir en el archivo .txt 
+ desde un programa python

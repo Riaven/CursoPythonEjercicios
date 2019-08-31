@@ -1,0 +1,8 @@
+README.md
+setup.py
+Paquete_de_c_lculos.egg-info/PKG-INFO
+Paquete_de_c_lculos.egg-info/SOURCES.txt
+Paquete_de_c_lculos.egg-info/dependency_links.txt
+Paquete_de_c_lculos.egg-info/top_level.txt
+calculos/__init__.py
+calculos/calculos_generales.py
