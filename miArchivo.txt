@@ -1,2 +1,3 @@
 Frase para escribir en el archivo .txt 
- desde un programa python
+ desde un programa python 
+ siempre se puede agregar algo adicional :)
