@@ -1,0 +1,3 @@
+Estamos creando un archivo de texto, para comprobar
+el uso de los punteros dentro de
+archivos externos en Python
