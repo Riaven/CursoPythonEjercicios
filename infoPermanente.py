@@ -46,8 +46,11 @@ class ListaPersonas():
         #muestra la info del fichero externo
     def mostrarInfoFicheroExterno(self):
         print("La info del fichero externo es la siguiente :")
-        for perso in self.personas:
-            print(perso)
+        listadePersonas = open("listafichero", "rb")
+        listaExterna = pickle.load(listadePersonas)
+        for listaE in listaExterna:
+            print(listaE)
+        
 miLista = ListaPersonas()
 #persona1 = Persona("María", "Femenino", 23)
 #miLista.agregarPersonas(persona1)
