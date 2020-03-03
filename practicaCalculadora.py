@@ -112,7 +112,7 @@ def igual():
     global resultado
     global operador
     global cantidad
-    
+    #para cada una de las operaciones
     if(operador == "suma"):
         numeroseleccionado.set(resultado + int(numeroseleccionado.get()))
         operador = ""
