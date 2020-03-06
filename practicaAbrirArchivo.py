@@ -8,7 +8,7 @@ def abrirCarpeta():
     # initialdir =  corresponde al directorio que por defecto abre primero la ventana emergente#
     carpeta = filedialog.askopenfilename(title = "Abrir", initialdir = "C:", filetypes = (("Ficheros Excel", "*.xlsx"),
                                                                                           ("Ficheros de texto", "*.txt")))
-    
+    print(carpeta)
 
 Button(root, text = "Abrir", command = abrirCarpeta).pack()
 root.mainloop()
