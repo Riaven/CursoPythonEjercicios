@@ -53,4 +53,6 @@ barra.add_cascade(label = "Archivo", menu = archivoMenu)
 barra.add_cascade(label = "Edición", menu = archivoEdicion)
 barra.add_cascade(label = "Herramientas", menu = archivoHerramientas)
 barra.add_cascade(label = "Ayuda", menu = archivoAyuda)
+
+
 root.mainloop()
